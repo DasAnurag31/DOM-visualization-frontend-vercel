@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 
 const FormComponent = ({ onDataReceived, loading, setLoading }) => {
-  const [url, setUrl] = useState("https://www.google.com");
+  const [url, setUrl] = useState("");
 
   const handleSubmit = async (event) => {
     event.preventDefault();
