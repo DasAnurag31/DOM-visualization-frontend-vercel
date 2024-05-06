@@ -19,7 +19,7 @@ This repository contains the frontend code for our DOM Tree Visualizer project. 
 
 ## Deployed Link:
 
-[Visit the DOM Tree Visualizer](https://your-vercel-app.vercel.app/)
+[Visit the DOM Tree Visualizer](https://dom-visualization-frontend-vercel.vercel.app/)
 
 ## Backend Repository:
 
