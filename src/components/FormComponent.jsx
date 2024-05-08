@@ -9,7 +9,7 @@ const FormComponent = ({ onDataReceived, loading, setLoading }) => {
     setLoading(true);
     try {
       const response = await axios.post(
-        "http://localhost:5000/api/v1/geturl",
+        "https://vercelsucks-dasanurag31s-projects.vercel.app/api/v1/geturl",
         { url }
       );
       onDataReceived(response.data);
