@@ -1,11 +1,12 @@
 import React from "react";
+import boyImage from "../assets/boy.png";
 import { AiOutlineCloseCircle } from "react-icons/ai";
 
 const Tooltip = ({ toggleImage, setToggleImage }) => {
   return (
-    <div className="float-right">
+    <div className="float-right"> 
       <div
-        className={`absolute bottom-2 right-2 xl:right-10 ${
+        className={`fixed bottom-2 right-2 xl:right-10 ${
           toggleImage ? "block" : "hidden"
         }`}
       >
@@ -31,7 +32,11 @@ const Tooltip = ({ toggleImage, setToggleImage }) => {
             Close <AiOutlineCloseCircle />
           </button>
         </div>
-        <img className="float-end w-52 xl:w-80" src="../assets/boy.png" alt="It's Me, Hi!!!" />
+        <img
+          className="float-end w-52 xl:w-80"
+          src={boyImage}
+          alt="It's Me, Hi!!!"
+        />
       </div>
     </div>
   );
