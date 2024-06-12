@@ -152,7 +152,7 @@ const TreeFlow = ({ data }) => {
           }}
         />
         <Panel position="top-right" className="btn-grad-panel">
-          <button onClick={onLayout} className="font-semibold text-xl">
+          <button onClick={onLayout} className="md:font-semibold md:text-xl text-sm">
             Beautify
           </button>
         </Panel>
